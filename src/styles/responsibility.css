@@ -1,29 +1,25 @@
 @media screen and (min-width: 1280px) {
   /* Header */
-  header div.guest-desktop {
-    visibility: visible;
-  }
 
-  header div.guest-mobile{
+  header div.guest-mobile {
     display: none;
   }
 
   /* Landing Page */
-  .landing main > div{
+  .landing main > div {
     width: 50%;
-
-    align-items: baseline;
   }
 
-  .landing main > div > div{
+  .landing main > div > div {
     margin-top: 0.5rem;
   }
 
-  .landing main > div > h1, .landing main > div > p{
+  .landing main > div > h1,
+  .landing main > div > p {
     text-align: left;
   }
 
-  .landing main > img{
+  .landing main > img {
     width: 100vh;
     bottom: 0;
     right: 0;

@@ -24,6 +24,12 @@ const Container = styled.header`
     visibility: hidden;
   }
 
+  @media screen and (min-width: 1280px) {
+    div.guest-desktop {
+      visibility: visible;
+    }
+  }
+
   h1 {
     font-family: 'Poppins';
     font-size: 1.5rem;
@@ -38,9 +44,10 @@ function Header() {
         <h1>luna.</h1>
       </div>
 
-      <div className="guest-desktop">
-        <a href="#">a</a>
-        <button>Log in</button>
+      <div className="guest-desktop bg-white text-black px-6 py-1 rounded-md">
+        <a href="#">
+          <button className="font-medium">Log in</button>
+        </a>
       </div>
 
       <div className="guest-mobile">
