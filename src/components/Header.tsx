@@ -9,10 +9,14 @@ const Container = styled.header`
 
   padding: 0 25px;
 
+  @media (min-width: 1200px) {
+    padding: 0 40px;
+  }
+
   width: 100vw;
   height: 75px;
 
-  background-color: #000000;
+  background-color: #181717;
 
   div {
     display: flex;
@@ -41,10 +45,10 @@ function Header() {
     <Container>
       <div>
         <i className="bx bxs-moon mr-2" />
-        <h1>luna.</h1>
+        <h1 className="font-extrabold">luna.</h1>
       </div>
 
-      <div className="guest-desktop bg-white text-black px-6 py-1 rounded-md">
+      <div className="guest-desktop bg-white text-black px-7 py-2 rounded-sm">
         <a href="#">
           <button className="font-medium">Log in</button>
         </a>
